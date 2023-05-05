@@ -13,23 +13,64 @@ $colorheader: #f7f9f9;
 $colorbody: white;
 $colorfont: black;
 $colorfooterlinks: #19699f;
+$colorfootertext: #ced4da;
 
 
 // Adding screen sizes here:
 
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 768px) {}
 
 // Body Style:
 
-html{
+html {
     margin: 0;
 }
 
-.mainframe{
-    max-width: 80%;
+
+.footer {
+    // border: 1px solid red;
+    background-color: $colorfooter;
+    font-family: 'Roboto Condensed';
+    color: $colorbody;
+    padding: 4%;
+    
+    display: flex;
+    flex-flow: column nowrap;
+
+    .footerlinks {
+        font-size: $fontsizesmall;
+
+        flex-flow: row nowrap;
+        justify-content: center;
+        font-weight: 300;
+    }
+
+    a {
+        color: $colorfooterlinks;
+        flex: 0.1;
+
+        &:hover {
+            color: $colorfootertext;
+            text-decoration: none;
+        }
+    }
+
+    .allfooterwords {
+        align-items: center;
+        
+
+        .footertitle {
+            font-size: $fontsizemid;
+            margin-bottom: 2%;
+            margin-top: 1%;
+        }
+
+        .footertext {
+            color: $colorfootertext;
+            margin-top: 0;
+            font-size: $fontsizesmall;
+            font-weight: 300;
+        }
+    }
 }
-
-
 
