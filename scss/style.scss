@@ -1,1 +1,32 @@
-// Good luck :D
+// Adding font sizes here:
+
+$fontsizesmall: 16px;
+$fontsizemid: 20px;
+$fontsizebody: 24px;
+$fontsizesubheading: 32px
+$fontsizeheading: 40px;
+
+// Adding colors here
+
+$colorfooter: #33393f;
+$colorheader: #f7f9f9;
+$colorbody: white;
+$colorfont: black;
+$colorfooterlinks: #19699f;
+
+
+// Adding screen sizes here:
+
+@media screen and (max-width: 768px) {
+    
+}
+
+// Body Style:
+
+html{
+    margin: 0;
+}
+
+.mainframe{
+    max-width: 80%;
+}
