@@ -96,3 +96,66 @@ $colorfooterlinks: #19699f;
     font-size: 25px;
     font-weight: 100;
 }
+
+/***Form***/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 30px auto;
+}
+
+form input {
+    margin: 0;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+}
+
+form textarea {
+    width: 500px;
+    border-color: black;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+form button {
+    width: 500px;
+    height: 30px;
+    border: 1px solid rgb(239, 238, 238);
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 2px 2px 8px;
+}
+
+form button:hover {
+    transition: background-color 1s ;
+    background-color: rgb(197, 194, 194);
+    cursor: pointer;
+}
+
+
+/***responsivity***/
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .navigation {
+        height: 25vh;
+    }
+
+    .navigation img {
+        width: 17%;
+    }
+
+    .mainHeader__boxes  {
+        flex-direction: column;
+    } 
+}
