@@ -1,0 +1,98 @@
+/***Values****
+$fontsizesmall: 16px;
+$fontsizemid: 20px;
+$fontsizebody: 24px;
+$fontsizesubheading: 32px;
+$fontsizeheading: 40px;
+
+$colorfooter: #33393f;
+$colorheader: #f7f9f9;
+$colorbody: white;
+$colorfont: black;
+$colorfooterlinks: #19699f;
+
+@media screen and (max-width: 768px) {
+/******/
+
+
+/***Navigation***/
+
+.navigation {
+    margin: 0;
+    width: 100vw;
+    height: 20vh;
+    background: rgb(239, 238, 238); 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    height: 20vh;
+    
+}
+
+.navigation img {
+    width: 11%;
+}
+
+.navigation nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 0 7px;
+    color: #CED4DA;
+    text-decoration: none;
+}
+
+.navigation nav a:hover {
+    color: black;
+}
+
+/***MainBody***/ 
+
+.mainHeader {
+    width: 80vw;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mainHeader__headers h1 {
+    margin-top: 1.5em;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.mainHeader__headers h2 {
+    font-size: 32px;
+    font-weight: 100;
+} 
+
+.mainHeader img {
+    margin-top: 1.5em;
+    width: 80vw;
+}
+
+.mainHeader__boxes {
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainHeader__boxes div {
+    margin-top: 1.5em;
+}
+
+.mainHeader__boxes p {
+    margin: 7px;
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+.mainHeader__boxes h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
