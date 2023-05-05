@@ -1,8 +1,15 @@
 .products {
+    font-family: Roboto Condensed;
+    
+}
+
+
+
+.products {
     width: fit-content;
     margin: 5em;
-    /* padding: 20px; */
-   
+    
+    
 }
 .coffee {
     margin: 3em;
@@ -47,4 +54,19 @@ img {
     display: block;
     
 
+}
+@media (max-width:768px){
+    .product-detail {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // // display: block;
+        // align-items: center;
+    }
+    .product {
+        max-width: 100%;
+        padding: 0px;
+        
+
+    }
 }

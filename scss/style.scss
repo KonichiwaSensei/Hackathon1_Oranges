@@ -1,5 +1,3 @@
-@import "product.scss";
-
 // Adding font sizes here:
 
 $fontsizesmall: 16px;
@@ -16,13 +14,6 @@ $colorbody: white;
 $colorfont: black;
 $colorfooterlinks: #19699f;
 $colorfootertext: #ced4da;
-
-
-
-
-// Adding screen sizes here:
-
-@media screen and (max-width: 768px) {}
 
 // Body Style:
 
@@ -63,7 +54,7 @@ body {
         font-size: $fontsizesubheading;
     }
 
-    .coffee{
+    .coffeeclass{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -80,17 +71,10 @@ body {
     .menulisting {
         width: 50%;
          
-        
-
         .menulistingtitle {
             font-size: $fontsizesubheading;
             margin-bottom: 0;
             text-transform: capitalize;
-
-            
-            
-
-
         }
 
         .drinknameandprice {
@@ -155,6 +139,25 @@ body {
             font-weight: 300;
         }
     }
+
+}
+
+
+// Adding screen sizes here: (ALWAYS ON END)
+
+@media screen and (max-width: 768px) {
+    .menusection {
+
+        .menulisting{
+            width: 100%;
+
+            .drinknameandprice{
+                width: 100%;
+            }
+        }
+    }
+
+
 
 }
 
