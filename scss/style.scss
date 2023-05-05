@@ -26,10 +26,88 @@ $colorfootertext: #ced4da;
 
 // Body Style:
 
-html {
+body {
     margin: 0;
 }
 
+.content{
+    padding: 0 10%;
+}
+
+img{
+    width: 80%;
+
+}
+
+.menusection {
+
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+
+    
+
+    .menutitles{
+        // border: black 1px solid;
+
+        justify-content: end;
+    }
+    
+
+
+    .menusectiontitle {
+        font-size: $fontsizeheading;
+        align-items: flex;
+    }
+
+    .menusectionsubtitle{
+        font-size: $fontsizesubheading;
+    }
+
+    .coffee{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .drinks{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+  
+
+    .menulisting {
+        width: 50%;
+         
+        
+
+        .menulistingtitle {
+            font-size: $fontsizesubheading;
+            margin-bottom: 0;
+            text-transform: capitalize;
+
+            
+            
+
+
+        }
+
+        .drinknameandprice {
+            width: 90%;
+            font-size: $fontsizesmall;
+            margin-top: 0;
+            
+
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+
+        }
+    }
+
+
+}
 
 
 .footer {
@@ -38,7 +116,7 @@ html {
     font-family: 'Roboto Condensed';
     color: $colorbody;
     padding: 4%;
-    
+
     display: flex;
     flex-flow: column nowrap;
 
@@ -62,7 +140,7 @@ html {
 
     .allfooterwords {
         align-items: center;
-        
+
 
         .footertitle {
             font-size: $fontsizemid;
