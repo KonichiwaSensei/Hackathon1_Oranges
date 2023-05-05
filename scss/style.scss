@@ -15,17 +15,6 @@ $colorfont: black;
 $colorfooterlinks: #19699f;
 $colorfootertext: #ced4da;
 
-
-
-
-// Adding screen sizes here:
-
-@media screen and (max-width: 768px) {
-
-
-
-}
-
 // Body Style:
 
 body {
@@ -150,6 +139,25 @@ body {
             font-weight: 300;
         }
     }
+
+}
+
+
+// Adding screen sizes here: (ALWAYS ON END)
+
+@media screen and (max-width: 768px) {
+    .menusection {
+
+        .menulisting{
+            width: 100%;
+
+            .drinknameandprice{
+                width: 100%;
+            }
+        }
+    }
+
+
 
 }
 
