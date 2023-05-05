@@ -1,0 +1,40 @@
+html {
+  margin: 0;
+}
+
+.footer {
+  background-color: #33393f;
+  font-family: "Roboto Condensed";
+  color: white;
+  padding: 4%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.footer .footerlinks {
+  font-size: 16px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-weight: 300;
+}
+.footer a {
+  color: #19699f;
+  flex: 0.1;
+}
+.footer a:hover {
+  color: #ced4da;
+  text-decoration: none;
+}
+.footer .allfooterwords {
+  align-items: center;
+}
+.footer .allfooterwords .footertitle {
+  font-size: 20px;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+.footer .allfooterwords .footertext {
+  color: #ced4da;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 300;
+}/*# sourceMappingURL=style.css.map */
